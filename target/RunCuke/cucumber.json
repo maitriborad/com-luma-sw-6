@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 21975609700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify that User can sort products by Price",
+        "description": "",
+        "id": "women-products-test;verify-that-user-can-sort-products-by-price",
+        "after": [
+          {
+            "result": {
+              "duration": 835232900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 89408100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on home page",
+            "match": {
+              "location": "GearProductSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1245342100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I mouse hover on Women menu",
+            "match": {
+              "location": "WomenProductSteps.iMouseHoverOnWomenMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201777900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I mouse hover on Top menu",
+            "match": {
+              "location": "WomenProductSteps.iMouseHoverOnTopMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1956299500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Jacket menu",
+            "match": {
+              "location": "WomenProductSteps.iClickOnJacketMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1533007900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select Price from DropDown list",
+            "match": {
+              "location": "WomenProductSteps.iSelectPriceFromDropDownList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2210432400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify that products are sorted by Price",
+            "match": {
+              "location": "WomenProductSteps.verifyThatProductsAreSortedByPrice()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@smoke"
+          },
+          {
+            "line": 12,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Women products Test",
+    "description": "As a User I can sort products from Filter",
+    "id": "women-products-test",
+    "keyword": "Feature",
+    "uri": "WomenProducts.feature"
+  }
+]
